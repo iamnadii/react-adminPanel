@@ -1,2 +1,24 @@
 .table {
+  .head {
+    font-weight: 700;
+  }
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 5px;
+    }
+  }
+  .status {
+    &.Approved {
+      color: green;
+    }
+    &.Pending {
+      color: red;
+    }
+  }
 }

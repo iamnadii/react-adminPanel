@@ -83,8 +83,7 @@ const Widget = ({ type }) => {
       break;
   }
   return (
-    // style={data.bColor}
-    <div className="widget">
+    <div className="widget" style={data.bColor}>
       <div className="left">
         <span className="title">{data.title}</span>
         <span className="counter">
